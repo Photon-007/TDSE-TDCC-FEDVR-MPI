@@ -1,0 +1,13 @@
+&laser_params
+!	Intensity		= 0.1 'au'
+	Amplitude		= 1.0 'au'
+	PhotonEnergy	= 0.4445 'au'
+!	WaveLength		= 800 'nm'
+	CEP				= 90.0 'deg'
+!	FWHM			= 20 'fs'
+	Duration		= 28.2714 'au'
+	Time_center		= 15 'au'
+!	Oscillations	= 2 'FWHM'
+	Envelope_type	= 'sin2'
+/
+

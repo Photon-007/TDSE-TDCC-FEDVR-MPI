@@ -1,0 +1,82 @@
+&general_switches
+	do_chp_calcs       = .FALSE.
+	linearly_pol_laser = .TRUE.
+	only_initial_wf    = .TRUE.
+	init_by_ITP        = .FALSE.
+	do_diagH0          = .FALSE.
+	do_pulse           = .TRUE.
+	do_propag          = .FALSE.
+	restart            = .FALSE.
+/
+
+&grid_parameters
+	N_fun   = 9
+	N_fe    = 109
+	N_tfe   = 30
+	dx_min  = 1.0d0
+	dx_max  = 1.5d0
+	lmax    = 4
+/
+
+&abspot_params
+	abspot_alpha = 6
+	abspot_frac  = 5
+/
+
+&initialization_params
+	target_atom = 'H'
+	Z_core  = 1.0
+	n_init  = 1
+	l_init  = 0
+	m_init  = 0
+/
+
+&laser_input
+	Pulse_files = 'Pulse_04.in' !, 'Pulse_02.in'
+/
+
+&propag_params
+	Gauge			= 'length'
+	Time_max		= 40.0 'fs'
+	Time_step_wf	= 1.00  'au'
+	Time_step_data	= 0.1  'au'
+	Delta_t			= 1.0d-2 'au'
+	Epsilon_ortho	= 1.0d-14
+	Epsilon_conv	= 1.0d-21
+	N_Krylov		= 8
+	GS_refinement	= 1
+	GS_all_qvecs	= .FALSE.
+/
+
+&ITP_params
+	Time_max_ITP	 = 1500.0 'au'
+	Delta_t_ITP		 = 1.0d-2 'au'
+	Epsilon_conv_ITP = 1.0d-24
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

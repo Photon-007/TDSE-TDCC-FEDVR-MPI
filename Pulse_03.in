@@ -1,0 +1,13 @@
+&laser_params
+	Intensity		= 1.0d13 'W/cm2'
+!	Amplitude		= 5.14d9 'V/cm'
+!	PhotonEnergy	= 1.3335 'au'
+	WaveLength		= 1030 'nm'
+	CEP				= 90.0 'deg'
+	FWHM			= 4 'fs'
+!	Duration		= 14.135 'au'
+	Time_center		= 10 'fs'
+!	Oscillations	= 2 'FWHM'
+	Envelope_type	= 'cos2'
+/
+
